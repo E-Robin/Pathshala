@@ -39,7 +39,7 @@ border:1px solid var(--primary-color) ;
 
 li{display:inline;
     font-weight:bold;
-    padding:1.2em 0px;
+    padding:1.2em 6px;
     
     
     
@@ -48,11 +48,11 @@ li{display:inline;
 
 }
 ul.sect{text-align: right;
-}
-ul.sect{background-color: var(--primary-color);
+background-color: var(--primary-color);
 padding:1.2em;
 border-bottom-left-radius: 1.5em;
-height:5em;
+height:4em;
+margin-top: 0px;
 }
 
 .sect div{text-align: left;
@@ -73,7 +73,12 @@ height:6em}
 
 section h2{text-align: center;}
 
-section{height:8em;}
+section{padding:2em;
+}
+
+section div{display: block;
+margin: auto;
+max-width: 600px;}
 button{
     /* padding:1em ;
     background-color: var(--primary-color);
@@ -88,3 +93,10 @@ button{
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 section.two{background-color: whitesmoke;}
+
+
+img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;}
